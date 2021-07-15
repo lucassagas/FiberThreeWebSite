@@ -43,6 +43,12 @@ export default class MyDocument extends Document {
           <meta name="description" content="Fiber Three" />
           <meta charSet="utf-8" />
 
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+          />
+
           <link
             rel="preload"
             href="/fonts/Futura PT Light.otf"

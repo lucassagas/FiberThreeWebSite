@@ -6,10 +6,13 @@ export default {
     secondary: '#6C4FBB',
     tertiary: '#8A6CDC',
     text: '#FFFFFF',
-    gray700: '#505050'
+    gray700: '#505050',
+    gray900: '#3B3B3B',
+    border: '#FFFF'
   },
   fontSizes: {
-    default: '1rem'
+    default: '1rem',
+    large: '4rem'
   },
   spacing: {
     default: '1rem',

@@ -60,6 +60,15 @@ export const Li = styled.li`
   position: relative;
   padding: 0 ${({ theme }) => theme.spacing.small};
 
+  + li {
+    margin: 0 7.8rem;
+  }
+
+  > a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.text};
+  }
+
   &:after {
     content: '';
     position: absolute;
@@ -78,15 +87,6 @@ export const Li = styled.li`
     transform-origin: bottom left;
   }
 
-  + li {
-    margin: 0 ${({ theme }) => theme.spacing.large};
-  }
-
-  > a {
-    text-decoration: none;
-    color: ${({ theme }) => theme.colors.text};
-  }
-
   @media (max-width: 800px) {
     padding: ${({ theme }) => theme.spacing.default};
     border-bottom: 1px solid ${({ theme }) => theme.colors.gray700};
@@ -102,6 +102,8 @@ interface MobileMenuProps {
 
 export const MobileMenu = styled.div<MobileMenuProps>`
   position: fixed;
+
+  z-index: 10;
 
   width: 100%;
   height: 100%;

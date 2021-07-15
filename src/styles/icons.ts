@@ -6,5 +6,7 @@ export {
   RiQrCodeLine,
   RiMap2Line,
   RiSettings4Line,
-  RiMenuLine
+  RiMenuLine,
+  RiQuestionAnswerLine,
+  RiNotification4Line
 } from 'react-icons/ri'
